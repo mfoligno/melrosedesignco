@@ -1,0 +1,13 @@
+#Jekyll
+title:          Melrose Designs
+name:           melrosedesignco
+url:            http://melrosedesignco.com
+year:           2016
+
+#Assets
+sass:
+    sass_dir:   _sass
+    style:      :compressed
+
+#Destination
+destination: "../_site"

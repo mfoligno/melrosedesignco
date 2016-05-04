@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+  <body {% if page.url == '/thank-you.html' %} class="thank-you" {% endif %}>
+    {{ content }}
+    {% include footer.html %}
+  </body>
+</html>
