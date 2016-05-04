@@ -6,14 +6,14 @@ module.exports = function(grunt) {
     //Watch and live reload
     watch: {
       images: {
-        files: ['src/src-img/**/*.{png,jpg,gif,svg}'],
+        files: ['img/**/*.{png,jpg,gif,svg}'],
         tasks: ['imagemin'],
         options: {
           spawn: false,
         }
       },
       jekyll: {
-        files: ['src/**/*.*'],
+        files: ['*/*.*'],
         tasks: ['shell:build'],
         options: {
           spawn: false,
@@ -33,7 +33,7 @@ module.exports = function(grunt) {
       files: {
         expand: true,
         cwd: 'img',
-        src: ['src/**/*.{png,jpg,gif,svg}'],
+        src: ['**/*.{png,jpg,gif,svg}'],
         dest: 'img',
         cache: false
       },
@@ -45,10 +45,10 @@ module.exports = function(grunt) {
         command: 'cd <%= cwd %> && node server'
       },
       build: {
-        command: 'cd <%= cwd %>/src && jekyll build'
+        command: 'cd <%= cwd %> && jekyll build'
       },
       prod: {
-        command: 'cd <%= cwd %>/src && JEKYLL_ENV=production jekyll build'
+        command: 'cd <%= cwd %> && JEKYLL_ENV=production jekyll build'
       }
     }
   });
