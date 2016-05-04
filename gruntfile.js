@@ -13,7 +13,7 @@ module.exports = function(grunt) {
         }
       },
       jekyll: {
-        files: ['*/*.*'],
+        files: ['**.*'],
         tasks: ['shell:build'],
         options: {
           spawn: false,

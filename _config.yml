@@ -13,4 +13,4 @@ sass:
 destination: "_site"
 
 #Exclude
-exclude: ["npm_modules", ".git", ".sass-cache", ".gitignore", "CNAME", "gruntfile.js", "package.json", "readme.md", "server.js"]
+exclude: ["node_modules", ".git", ".sass-cache", ".gitignore", "CNAME", "gruntfile.js", "package.json", "readme.md", "server.js"]
