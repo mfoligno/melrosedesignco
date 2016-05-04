@@ -253,15 +253,34 @@ footer {
       font-size: 35px;
     }
   }
+
+  h2 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 24px;
+    color: #ee5d73;
+  }
   .rose img {
     max-width: 100px;
+    margin-bottom: 40px;
+  }
+  .site {
+    padding-top: 6px;
+    height: 140px;
+    background: #fff;
+    border-radius: 20px;
   }
   .site img {
-    margin-top: 40px;
-    max-width: 300px;
+    padding-top: 6px;
+    max-width: 230px;
+  }
+  .etsy {
+    padding-top: 6px;
+    height: 140px;
+    background: #fff;
+    border-radius: 20px;
   }
   .etsy img {
-    margin-top: 40px;
-    max-width: 300px;
+    max-width: 280px;
   }
 }
