@@ -206,13 +206,13 @@ layout: default
               <label for="email">Email:</label>
               <input type="email" class="form-control" type="email" id="email" placeholder="Enter Email">
             </div>
-            <input type="text" name="_gotcha" style="display:none">
-            <input type="hidden" name="_subject" value="Melrose Designs: Form Submission">
-            <input type="hidden" name="_next" value="/thank-you.html">
             <div class="form-group">
               <label for="message">Message:</label>
-              <textarea class="form-control" rows="3" placeholder="Enter Your Message"></textarea>
+              <textarea class="form-control" rows="3" type="text" id="message" placeholder="Enter Your Message" name="Message"></textarea>
             </div>
+            <input type="text" name="_gotcha" style="display:none">
+            <input type="hidden" name="_subject" value="Melrose Designs: Form Submission">
+            <input type="hidden" name="_next" value="/thank-you">
             <button type="submit" id="submit" class="btn btn-danger btn-lg btn-block">Submit</button>
           </form>
         </div>
