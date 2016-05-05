@@ -260,35 +260,29 @@ footer {
     font-size: 24px;
     color: #ee5d73;
   }
+
   .rose img {
     max-width: 100px;
     margin-bottom: 40px;
   }
-  .site {
+
+  .button {
     margin-top: 10px;
     margin-bottom: 10px;
     padding-top: 6px;
-    height: 140px;
+    height: 200px;
     background: #fff;
     border-radius: 20px;
-  }
-  .site img {
-    padding-top: 6px;
-    max-width: 230px;
   }
   .etsy {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding-top: 6px;
-    height: 140px;
-    background: #fff;
-    border-radius: 20px;
+    img {
+      margin-top: 14px;
+      max-height: 130px;
+    }
   }
-  .etsy img {
-    max-width: 280px;
+  .home {
+    img {
+      max-height: 130px;
+    }
   }
-}
-
-.nav-fix {
-  padding-top: 200px;
 }

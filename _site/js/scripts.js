@@ -3,6 +3,6 @@
     var link = $(this).attr("href");
     $('html, body').animate({
       scrollTop: $(link).offset().top - 90
-    }, 400);
+    }, 600);
   });
 })();
